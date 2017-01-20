@@ -1,14 +1,211 @@
-{{ define "title" }}Go Starter Application{{ end }}
+{{ define "title" }}Voteb VR{{ end }} 
 {{ define "content"}}
-<table>
-	<tr>
-		<td style='width: 30%;'>
-			<img class = 'newappIcon' src='/static/images/newapp-icon.png'>
-		</td>
-		<td>
-			<h1 id="message">Hello World!</h1>
-			<p class='description'></p> Thanks for creating a <span class="blue">Go Starter Application</span>.
-		</td>
-	</tr>
-</table>
+<div class="upload-videos background-color-gray padding-top-50 padding-bottom-50 ">
+    <div class="container">
+        <div class="main-video-container">
+            <div class="video-player-main" id="player">
+                <iframe height="585" src="https://www.youtube.com/embed/8Ph71fU6U3s?controls=0&amp;showinfo=0"></iframe>
+            </div>
+        </div>
+        <div class="main-video-container-content">
+            <div class="banner-category"><a href="categorymain.html" class="cat">movies</a><a href="categorymain.html" class="cat">entertainment</a></div>
+            <h1>Always somthing Good</h1>
+            <div class="post-detail-metas background-color-white clearfix">
+                <div class="post-meta-image pull-left">
+                    <div class="video-uploder-person-image">
+                        <img src="images/post-image.jpg" alt="" width="34" height="34" />
+                    </div>
+                    <div class="post-meta-information">
+                        <p>Rayan Rose<i class="fa fa-check-circle-o"></i></p>
+                        <a href="login.html" class="video-subscribe-channel">Subscribe</a>
+                        <p>2 hours ago</p>
+                    </div>
+                </div>
+                <div class="post-detail-social-information pull-right">
+                    <a href=""><i class="fa fa-thumbs-o-down"></i> 10 dislikes</a>
+                    <a href=""><i class="fa fa-thumbs-o-up"></i> 20 likes</a>
+                    <a data-toggle="tooltip" title="Social Sharing" id="trigger-overlay"><i class="fa fa-share-alt"></i></a>
+                    <a data-toggle="tooltip" title="Embed Code" id="trigger-overlay2"><i class="fa fa-code"></i></a>
+                    <a data-toggle="tooltip" title="Share This Video" id="trigger-overlay3"><i class="fa fa-link"></i></a>
+                    <a data-toggle="tooltip" title="Report This video" id="trigger-overlay4"><i class="fa fa-flag"></i></a>
+                </div>
+            </div>
+            <p class="post-content">liquam ligula enim, rutrum sed tempus quis, auctor in sem. Nullam a lobortis mauris, sit amet varius magna. Ut efficitur non nibh at faucibus. Nullam nec arcu eu nulla ultrices auctor vel sit amet nisl. Vestibulum nec imperdiet nisl, non molestie dolor. Quisque id pretium dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque dapibus est in interdum tempor. Morbi lobortis faucibus semper.</p>
+        </div>
+    </div>
+</div>
+<div class="post-comments-section background-color-white padding-top-60 padding-bottom-70 border-bottom">
+    <div class="container">
+        <div class="big-title padding-top-30">
+            <h1>comments</h1>
+        </div>
+        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="5"></div>
+    </div>
+</div>
+<div class="popular-videos padding-top-60 border-bottom padding-bottom-10">
+    <div class="container position-relative">
+        <div class="slider-container">
+            <div class="big-title">
+                <h1>Related videos</h1>
+                <p>Explore our staff special</p>
+            </div>
+            <div class="row  margin-bottom-50">
+                <div class="slick-image-slider-4 slider0  slick-slider staff-picked-videos">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/1.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Play Station Love</a></h3>
+                                <p>Jhon Amander<i class="fa fa-check-circle-o trending-post"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/2.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Bloodgame</a></h3>
+                                <p>Amen Radayy<i class="fa fa-check-circle-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/3.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Luck</a></h3>
+                                <p>Rasyy Bean Tory <i class="fa fa-check-circle-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/4.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Locker</a></h3>
+                                <p>Rayan Rose<i class="fa fa-check-circle-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/4.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Play Station Love</a></h3>
+                                <p>Jhon Amander<i class="fa fa-check-circle-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/1.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Bloodgame</a></h3>
+                                <p>Amen Radayy<i class="fa fa-check-circle-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/3.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Luck</a></h3>
+                                <p>Rasyy Bean Tory <i class="fa fa-check-circle-o"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="post-details">
+                            <div class="overlay-inner-image">
+                                <img src="images/pop/game/2.png" alt="" />
+                                <a href="" class="inner-image-overlay"></a>
+                                <div class="watch-icon" data-toggle="tooltip" title="Watch Later">
+                                    <a href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="overlay-likes-comments clearfix">
+                                    <h3><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15.1K <i class="fa fa-eye" aria-hidden="true"></i>
+	580  <span class="pull-right">02:19</span></h3>
+                                </div>
+                            </div>
+                            <div class="image-content background-color-white">
+                                <h3><a href="">Locker</a></h3>
+                                <p>Rayan Rose<i class="fa fa-check-circle-o trending-post"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{ end }}
